@@ -31,8 +31,8 @@ export default function Portfolio() {
   const downloadCV = () => {
     // In a real application, you would link to your actual CV file
     const link = document.createElement("a")
-    link.href = "/CV_abderraouf.pdf" // Replace with your actual CV path
-    link.download = "/CV_abderraouf.pdf"
+    link.href = "./CV_abderraouf.pdf" // Replace with your actual CV path
+    link.download = "./CV_abderraouf.pdf"
     link.click()
   }
 
